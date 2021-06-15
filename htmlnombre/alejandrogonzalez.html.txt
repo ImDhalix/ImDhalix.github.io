@@ -1,0 +1,155 @@
+<html>
+<head>
+<title>Mi página personal</title>
+</head>
+<body>
+<style>
+h1 {
+  text-align: center;
+  color: SteelBlue;
+  font-family: "Times New Roman", Times, serif;
+}
+h2 {
+  background-color: LightCyan;
+  color: SteelBlue;
+  font-family: "Times New Roman", Times, serif;
+}
+p {
+  font-family: Arial;
+  text-align: justify;
+}
+h3 {
+  background-color: LightCyan;
+  color: SteelBlue;
+  font-family: "Times New Roman", Times, serif;
+}
+th {
+  background-color: Turquoise;
+}
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+div {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+textarea {
+  width: 100%;
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  font-size: 16px;
+  resize: none;
+}
+</style>
+<h1 class="p1"> Alejandro Gonzalez </h1>
+<br> 
+<center><img src="alejandro.png" width="240" height="300" alt="Alejandro Gonzalez" align="center"></center>
+<br>
+<p>Nací el 15 de Noviembre del 2002, en la ciudad de Valencia. Soy una persona extrovertida y sociable, que no  tiene pena de demostrar quien es ante los demás.</p>
+<hr> 
+<h2>Soy un muchacho de 18 años que vive en la Ciudad de Panamá, le gustan los videojuegos y salir de fiesta.</h2>
+<h2>Me gusta la comida rápida, los juegos de multijugador competitivos.</h2>
+<h3>Hot Dogs, Pizza, Sushi y Hamburguesas.</h3>
+<br>
+<ul>
+<li>Hot Dogs</li>
+<li>Pizza</li>
+<li>Sushi</li>
+<li>Hamburguesas</li>
+</ul>
+<br>
+<h3>Leer, Ver Netflix, y jugar Videojuegos.</h3>
+<br>
+<ol>
+<li>Leer</li>
+<li>Ver Netflix</li>
+<li>Jugar Videojuegos</li>
+</ol>
+<h3>Ragga Tonsah, Nicki Nocole - Bzrp session, Las Avispas.</h3>
+<table  border="1">
+<tr>
+<th>Genero</th>
+<th>Nombre</th>
+<th>Autor</th>
+<th>Audio</th>
+</tr>
+<tr>
+<td>Reggae</td>
+<td>Ragga Tonseh</td>
+<td>Navigator</td>
+<td><audio controls>
+  <source src="RaggaTonsah.mp3" type="audio/mp3">
+</audio></td>
+</tr>
+<tr>
+<td>Trap</td>
+<td>NICKI NICOLE || BZRP Music Sessions #13</td>
+<td>Bizarrap</td>
+<td><audio controls>
+  <source src="BZRP.mp3" type="audio/mp3">
+</audio></td>
+</tr>
+<tr>
+<td>Merengue</td>
+<td>Las Avispas</td>
+<td>Juan Luis Guerra</td>
+<td><audio controls>
+  <source src="LasAvispas.mp3" type="audio/mp3">
+</audio></td>
+</tr>
+</table>
+
+<h3>Los Gatos Guerreros.</h3>
+<img src="Gatos.jpg" width="398.75" height="640" >
+<br>
+<a href="https://gatosguerreros.fandom.com/es/wiki/Libros_de_Los_gatos_guerreros">Los Gatos Guerreros</a>
+<h3>Terminator 2</h3>
+<br>
+<video width="320" height="240" controls>
+  <source src="Trailer.mp4" type="video/mp4">
+</video>
+<div>
+  <form action="/action_page.php">
+    <label for="fname">Nombre</label>
+    <input type="text" id="fname" name="nombre" placeholder="Tu nombre...">
+
+    <label for="lname">Apellido</label>
+    <input type="text" id="lname" name="apellido" placeholder="Tu apellido...">
+<label for="lname">Correo Electrónico</label>
+    <input type="text" id="lname" name="correo" placeholder="example@example.com...">
+Asunto
+  <textarea></textarea>
+    </select>
+  
+    <input type="submit" value="Enviar">
+  </form>
+</div>
+</body>
+</html>
